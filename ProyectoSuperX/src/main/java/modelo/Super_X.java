@@ -70,7 +70,7 @@ public class Super_X {
     public String toString() {
         String frase= " Soy " + getNombre()+" me quedan "+getEnergia()+" puntos de energia";
         if (this.energia <= 0){
-            frase = frase + " Adios mundo !";
+            frase = frase + "... Adiós mundo!";
         }
         return frase;
     }
